@@ -1,0 +1,8 @@
+Q.1Dynamic Shape Generator
+
+Create a UI where the user selects:
+
+Shape (circle, square, triangle)
+Color
+Size
+On clicking “Generate”, the shape should appear dynamically on the page.

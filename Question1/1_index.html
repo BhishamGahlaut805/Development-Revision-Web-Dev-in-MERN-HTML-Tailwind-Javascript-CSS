@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shape Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Dynamic Shape Generator</h2>
+
+    <div class="controls">
+        <label>Shape:</label>
+        <select id="shape">
+            <option value="circle">Circle</option>
+            <option value="square">Square</option>
+            <option value="triangle">Triangle</option>
+        </select>
+
+        <label>Color:</label>
+        <input type="color" id="color">
+
+        <label>Size (px):</label>
+        <input type="number" id="size" value="100">
+
+        <button onclick="generateShape()">Generate</button>
+    </div>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
